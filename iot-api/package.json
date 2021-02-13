@@ -1,0 +1,28 @@
+{
+  "name": "iot-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple iot platform ",
+  "main": "server.js ",
+  "scripts": {
+    "test": "DEBUG=iotdb:*  ava --verbose",
+    "start": "NODE_ENV=production node server.js",
+    "start-dev": "DEBUG=iotdb:* nodemon server.js",
+    "lint": "standard"
+  },
+  "author": "Eber Peña",
+  "license": "MIT ",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nodemon": "^2.0.7",
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "express-asyncify": "^1.0.1",
+    "iot-db": "file:../iot-db"
+  }
+}

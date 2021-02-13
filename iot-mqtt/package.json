@@ -18,8 +18,9 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "debug": "^3.0.0",
-    "mosca": "^2.5.2",
     "iotdb": "file:../iot-db",
-    "redis": "^2.8.0"
+    "mosca": "^2.5.2",
+    "redis": "^2.8.0",
+    "uuid": "^8.3.2"
   }
 }

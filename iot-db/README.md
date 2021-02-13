@@ -1,5 +1,9 @@
 # IOT-db
 
+npm run setup 
+
+npm run test 
+
 ## Usage 
 
 ```js 
