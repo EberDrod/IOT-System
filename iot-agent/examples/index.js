@@ -38,5 +38,3 @@ function handler (payload) {
 
 setTimeout(() => agent.disconnect(), 10000)
 
-
-})
